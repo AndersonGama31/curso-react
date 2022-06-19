@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 // components
-import StartScreen from "./components/StarScreen"
+import StartScreen from "./components/StartScreen"
 import Game from "./components/Game";
 import GameOver from "./components/GameOver";
 

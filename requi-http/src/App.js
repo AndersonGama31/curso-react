@@ -8,7 +8,7 @@ import { Paper } from "@mui/material";
 
 // 8 - errar url para mostrar erro
 // "http://localhost:3001/products"
-const url = "http://localhost:3000/products";
+const url = "http://localhost:3000/products"; // url da nossa API fake
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -19,14 +19,6 @@ function App() {
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
 
-  // 1 - resgatando dados
-  // useEffect(async () => {
-  //   const res = await fetch("http://localhost:3000/products");
-
-  //   const data = await res.json();
-
-  //   setProducts(data);
-  // }, []);
 
   // 2 - add product
   const handleSubmit = async (e) => {

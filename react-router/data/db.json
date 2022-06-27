@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Boné aba reta",
+      "price": 300
+    },
+    {
+      "name": "Mouse",
+      "price": "50",
+      "id": 2
+    },
+    {
+      "name": "Bicicleta Caloi",
+      "price": "1099.00",
+      "id": 3
+    }
+  ]
+}
